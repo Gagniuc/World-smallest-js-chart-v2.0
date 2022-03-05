@@ -9,6 +9,7 @@ the following change was made to the Chart function:
 
 ![screenshot](https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/chart.png?raw=true)
 
+Live: https://gagniuc.github.io/World-smallest-js-chart-v2.0/
 
 ![screenshot](https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/x.png?raw=true)
 
