@@ -1,10 +1,6 @@
 # World smallest chart 2.0 in native JS
 
-# World smallest chart
-
-For a better visualization, the implementation of the chart narrows the y-axis and shows only the region between the two values. To obtain this relative reduction, the minimum similarity score value was taken into account. Thus, the following change was made to the Chart function:
-
-Version 2.0 of this compact chart takes into account both positive and negative values. Thus, the chart takes into account a lower bound as well as an upper bound. The lower bound represents the lowest value whereas the upper bound represents the highest value over the number sequence. Previously in chart version 1.0, only values from zero to <i>n</i> have been considered, where <i>n</i> was a positive value.
+<kbd>Version 2.0</kbd> of this compact chart takes into account both positive and negative values. Thus, the chart takes into account a lower bound as well as an upper bound. The lower bound represents the lowest value whereas the upper bound represents the highest value over the number sequence. Previously in [chart version 1.0](https://github.com/Gagniuc/World-smallest-js-chart-v1.0), only values from zero to <i>n</i> have been considered, where <i>n</i> was a positive value.
 
 The screenshot below shows a chart containing three different signals, each with a color (red, black, blue).
 
@@ -14,9 +10,11 @@ Live: https://gagniuc.github.io/World-smallest-js-chart-v2.0/
 
 <img src="https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/x.png?raw=true" height="100">
 
+For a better visualization, the implementation of this chart narrows the <kbd>y-axis</kbd> and shows only the region between the two values. To obtain this relative reduction, the minimum similarity score value was taken into account. Thus, the following change was made to the Chart function:
+
 <img src="https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/ylu.png?raw=true" height="100">
 
-where mn is the minimum value and mx is the maximum value found in the list of similarity scores, h is the canvas height, and si is the current value of the similarity index. Note that the inner workings of the Chart function were fully described for the previous implementations (see Additional algorithm 15.2). This concludes the changes related to the Chart function.
+Where <i>mn</i> is the minimum value and <i>mx</i> is the maximum value found in the signal (a sequence of numbers), <i>h</i> is the canvas height, and s[<i>i</i>] is the current value of the signal. Note that the inner workings of the Chart function were fully described for the [previous implementations](https://github.com/Gagniuc/World-smallest-js-chart-v1.0). This concludes the changes related to the Chart function.
 
 ```
 function Chart(q,c,e) {
