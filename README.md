@@ -2,7 +2,7 @@
 
 # World smallest chart (lower bound to upper bound)
 
-For a better visualization, the implementation of the chart narrows the y-axis and shows only the region between the two values. To obtain this relative reduction, the minimum similarity score value was taken into account. Thus, the following change was made to the Chart function:
+For a better visualization, the implementation of the chart narrows the y-axis and shows only the region between the two values. To obtain this relative reduction, the minimum similarity score value was taken into account. Thus, the following change was made to the Chart function:
 
 
 ![screenshot](https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/chart.png?raw=true)
