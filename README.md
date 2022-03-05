@@ -14,7 +14,7 @@ For a better visualization, the implementation of this chart narrows the <kbd>y-
 
 <img src="https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/ylu.png?raw=true" height="100">
 
-Where <i>mn</i> is the minimum value and <i>mx</i> is the maximum value found in the signal (a sequence of numbers), <i>h</i> is the canvas height, and s[<i>i</i>] is the current value of the signal. Note that the inner workings of the Chart function were fully described for the [previous implementations](https://github.com/Gagniuc/World-smallest-js-chart-v1.0). This concludes the changes related to the Chart function.
+Where <i>mn</i> is the minimum value and <i>mx</i> is the maximum value found in the signal (a sequence of numbers), <i>h</i> is the canvas height, and s[<i>i</i>] is the current value from the signal. Note that the inner workings of the Chart function were fully described for the [previous implementations](https://github.com/Gagniuc/World-smallest-js-chart-v1.0). This concludes the changes related to the Chart function.
 
 ```
 function Chart(q,c,e) {
