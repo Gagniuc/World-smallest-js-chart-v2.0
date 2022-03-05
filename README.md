@@ -1,8 +1,8 @@
 # World smallest chart 2.0 in native JS
 
-<kbd>Version 2.0</kbd> of this compact chart takes into account both positive and negative values. Thus, the chart takes into account a lower bound as well as an upper bound. The lower bound represents the lowest value whereas the upper bound represents the highest value over the number sequence. Previously in [chart version 1.0](https://github.com/Gagniuc/World-smallest-js-chart-v1.0), only values from zero to <i>n</i> have been considered, where <i>n</i> was a positive value.
+<kbd>Version 2.0</kbd> of this compact chart takes into account both positive and negative values. Previously in [chart version 1.0](https://github.com/Gagniuc/World-smallest-js-chart-v1.0), only values from zero to <i>n</i> have been considered, where <i>n</i> was a positive value. Thus, chart 2.0 takes into account a lower bound as well as an upper bound. The lower bound represents the lowest value whereas the upper bound represents the highest value over the number sequence. 
 
-The screenshot below shows a chart containing three different signals, each with a color (red, black, blue).
+The screenshot below shows the output of chart 2.0. This output contains three different signals, each with a different color (red, black, blue):
 
 ![screenshot](https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/chart.png?raw=true)
 
