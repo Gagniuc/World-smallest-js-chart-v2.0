@@ -11,7 +11,7 @@ function Chart(q,c,e) {
         if(e=='y'){ctx.clearRect(0, 0, w, h);}
         ctx.moveTo(0, 0);
         ctx.beginPath();
-		    var d = ((w-80)/s.length);
+	var d = ((w-80)/s.length);
 		
         for (var i=0; i<=s.length-1; i++){
             var y = h - 15 - (((h-15) / (mx-mn)) * (s[i]-mn));
