@@ -11,9 +11,9 @@ the following change was made to the Chart function:
 
 Live: https://gagniuc.github.io/World-smallest-js-chart-v2.0/
 
-<img src="https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/x.png?raw=true">
+<img src="https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/x.png?raw=true" height="100">
 
-<img src="https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/ylu.png?raw=true">
+<img src="https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/ylu.png?raw=true" height="100">
 
 where mn is the minimum value and mx is the maximum value found in the list of
 similarity scores, h is the canvas height, and si is the current value of the similarity
