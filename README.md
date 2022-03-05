@@ -1,6 +1,6 @@
 # World smallest chart 2.0 in native JS
 
-<kbd>Version 2.0</kbd> of this compact chart takes into account both positive and negative values. Previously in [chart version 1.0](https://github.com/Gagniuc/World-smallest-js-chart-v1.0), only values from zero to <i>n</i> have been considered, where <i>n</i> was a positive value. Thus, chart 2.0 takes into account a lower bound as well as an upper bound. The lower bound represents the lowest value whereas the upper bound represents the highest value over the number sequence. 
+<kbd>Version 2.0</kbd> of this compact chart takes into account both positive and negative values. Previously in [chart version 1.0](https://github.com/Gagniuc/World-smallest-js-chart-v1.0), only values from zero to <i>n</i> have been considered, where <i>n</i> was a positive value. Thus, chart 2.0 takes into account a lower bound as well as an upper bound. The lower bound represents the lowest value whereas the upper bound represents the highest value over the number sequence. For more detailed information, note that these native Charts in Javascript, were published in the supplementary materials of the book entitled <i>Algorithms in Bioinformatics: Theory and Implementation</i>.
 
 The screenshot below shows the output of chart 2.0. This output contains three different signals, each with a different color (red, black, blue):
 
@@ -44,6 +44,7 @@ function Chart(q,c,e) {
 }
 ```
 
+The lines below show how this <kbd>Chart</kbd> function from above can be called:
 
 ```
 
