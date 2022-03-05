@@ -6,13 +6,7 @@ For a better visualization, the implementation of the chart narrows the y-axis a
 
 The screenshot below shows a chart containing three different signals, each with a color (red, black, blue).
 
-Version 2.0 of this compact chart takes into account both positive and negative values. 
-
-Thus the chart takes into account a lower bound as well as an upper bound.
-
-The lower bound represents the lowest value whereas the upper bound represents the highest value over the number sequence.
-
-Previously in chart version 1.0, only values from zero to n have been considered, where n was a positive value.
+Version 2.0 of this compact chart takes into account both positive and negative values. Thus, the chart takes into account a lower bound as well as an upper bound. The lower bound represents the lowest value whereas the upper bound represents the highest value over the number sequence. Previously in chart version 1.0, only values from zero to <i>n</i> have been considered, where <i>n</i> was a positive value.
 
 ![screenshot](https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/chart.png?raw=true)
 
