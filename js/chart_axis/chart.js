@@ -2,7 +2,7 @@ function Chart(q,c,e) {
     
     var s = q.split(",");
     var mx = Math.max.apply(null, s);
-	var mn = Math.min.apply(null, s);
+    var mn = Math.min.apply(null, s);
 
     var canvas = document.getElementById('bio');
 
@@ -18,7 +18,7 @@ function Chart(q,c,e) {
         ctx.moveTo(0, 0);
         ctx.beginPath();
         
-		var d = ((w-80)/s.length);
+	var d = ((w-80)/s.length);
 		
         for (var i=0; i<=s.length-1; i++)
         {
@@ -35,6 +35,7 @@ function Chart(q,c,e) {
 
 			ctx.closePath();
 			ctx.beginPath();
+			
 			//horisontal divisions
 			ctx.strokeStyle = '#454545';
 			
