@@ -1,4 +1,4 @@
-# World smallest chart in native JS
+# World smallest chart 2.0 in native JS
 
 # World smallest chart (lower bound to upper bound)
 
