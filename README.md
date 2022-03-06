@@ -8,13 +8,13 @@ The screenshot below shows the output of chart 2.0. This output contains three d
 
 Live: https://gagniuc.github.io/World-smallest-js-chart-v2.0/
 
-How does it work? The Chart function contains a loop that makes a number of iterations (<i>i</i>) equal to the number of terms present in the number sequence (<i>s</i>). Inside the main loop, the coordinates above the canvas object are calculated based on the maximum value, namely according to the value found in the <i>mx</i> variable. Thus, the <kbd>y-axis</kbd> is represented by the height (<i>h</i>) of the canvas object divided by the value in the <i>mx</i> variable (<i>h</i>/<i>mx</i>), and the result is multiplied by the current value in the number sequence (s[<i>i</i>]). To position the zero values at the bottom of the chart, the <kbd>y-axis</kbd> is reversed by subtracting the result (the <i>y</i> value) from the height (<i>h</i>) of the canvas object:
+How does it work? The Chart function contains a loop that makes a number of iterations (<i>i</i>) equal to the number of terms present in the sequence (<i>s</i>). Inside the main loop, the coordinates above the canvas object are calculated based on the maximum value, namely according to the value found in the <i>mx</i> variable. Thus, the <kbd>y-axis</kbd> is represented by the height (<i>h</i>) of the canvas object divided by the value in the <i>mx</i> variable (<i>h</i>/<i>mx</i>), and the result is multiplied by the current value in the sequence (s[<i>i</i>]). To position the zero values at the bottom of the chart, the <kbd>y-axis</kbd> is reversed by subtracting the result (the <i>y</i> value) from the height (<i>h</i>) of the canvas object:
 
 For a better visualization, the implementation of this chart narrows the <kbd>y-axis</kbd> and shows only the region between the two values. To obtain this relative reduction, the minimum similarity score value was taken into account. Thus, the following change was made to the Chart function:
 
 <img src="https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/ylu.png?raw=true" height="100">
 
-In contrast, the <kbd>x-axis</kbd> is calculated by dividing the length of the canvas object by the total number of terms in the sequence of numbers (<b>w/s.length</b>), and the
+In contrast, the <kbd>x-axis</kbd> is calculated by dividing the length of the canvas object by the total number of terms in the sequence (<b>w/s.length</b>), and the
 result is multiplied by the iteration number (<i>i</i>):
 
 <img src="https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/x.png?raw=true" height="100">
