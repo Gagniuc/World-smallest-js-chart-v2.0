@@ -15,7 +15,7 @@ result is multiplied by the iteration number (<i>i</i>):
 
 <img src="https://github.com/Gagniuc/World-smallest-js-chart-v2.0/blob/main/img/x.png?raw=true" height="100">
 
-Where <i>mn</i> is the minimum value and <i>mx</i> is the maximum value found over the signal (consecutive numeric values spaced by delimiters), <i>h</i> is the canvas height, and s[<i>i</i>] is the current value from the input. Note that the inner workings of the Chart function were fully described for the [previous implementations](https://github.com/Gagniuc/World-smallest-js-chart-v1.0). This concludes the changes related to the Chart function.
+Where <i>mn</i> is the minimum value and <i>mx</i> is the maximum value found over the signal (consecutive numeric values spaced by delimiters), <i>h</i> is the canvas height, and s[<i>i</i>] is the current value from the input. Note that the inner workings of the Chart function were fully described for the [previous implementations](https://github.com/Gagniuc/World-smallest-js-chart-v1.0). This concludes the changes related to the Chart function:
 
 ```js
 function Chart(q,c,e) {
